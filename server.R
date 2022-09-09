@@ -162,7 +162,9 @@ shinyServer(function(session,input, output) {
     
     #renomage des capteurs
     for(i in 1:length(listecapt)){
-      dfglob <- dfglob %>% mutate(segment_id=replace(segment_id,segment_id==listecapt[i],listeNom_temp[i]))
+      dfglob <- dfglob %>% mutate(segment_id = replace(segment_id,
+                                                       segment_id==listecapt[i],
+                                                       listeNom_temp[i]))
     }
     
     #################

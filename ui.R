@@ -6,7 +6,7 @@ shinyUI(
     # navbarPage
     navbarPage(
       tags$img(src="AGT.png",height=35),
-      tabPanel("Acceuil",
+      tabPanel("Accueil",
                p("Bienvenue sur cette application ayant pour objectif de fournir des outils pour l’analyse
                  des données de mobilités captés par les capteurs Telraam installé à Chateaubourg.
                  Cette application se décompose en plusieurs onglets."),
