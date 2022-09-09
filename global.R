@@ -58,7 +58,8 @@ listeNombis <- c("Burel-01","Leclerc-02","ParisMarché-03","rueVignes-04","Paris
 ##########################################################
 
 # Récupération de la clef de l'API
-key = read.delim("clef.txt",header = FALSE)[[1]]
+key = readLines("clef.txt")
+#key <- polished::get_api_key()
 
 
 #################################################

@@ -5,3 +5,5 @@
 .DS_Store
 **/rsconnect
 clef.txt
+# R Environment Variable
+00_set_api_key.R
